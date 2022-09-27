@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: docker.io/adventuresbyjosh/reverseproxy:v2
+        image: docker.io/ndiklasthecoder/reverseproxy:v42
         ports:
         - containerPort: 80
         resources:

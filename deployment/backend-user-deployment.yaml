@@ -14,24 +14,24 @@ spec:
     spec:
       containers:
       - name: backend-user
-        image: docker.io/adventuresbyjosh/udagram-api-user:v2
+        image: docker.io/ndiklasthecoder/udagram-api-user:v42
         env:
         - name: POSTGRES_USERNAME
-          value: udagramdb
+          value: postgres
         - name: POSTGRES_PASSWORD
-          value: Exploits
+          value: H2XggZC68tzvDyc
         - name: POSTGRES_HOST
-          value: udagramdb4.cnm9is4dpuzd.us-east-1.rds.amazonaws.com
+          value: postgres.co8tgh7qybms.us-east-1.rds.amazonaws.com
         - name: POSTGRES_DB
           value: postgres
         - name: AWS_BUCKET
-          value: udagram-bk3
+          value: mono-226980126821
         - name: AWS_REGION
           value: us-east-1
         - name: AWS_PROFILE
           value: default
         - name: JWT_SECRET
-          value: hello
+          value: testing
         - name: URL
           value: http://localhost:8100
         ports:
